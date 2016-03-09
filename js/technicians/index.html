@@ -1,0 +1,10 @@
+<h2 class = 'technicianTitle'>Technicians</h2>
+<div class = 'newTechnician' data-ui-sref = "technicianNew">New Technician</div>
+<div class="technicians" data-ng-repeat= "technician in TechnicianIndexViewModel.technicians">
+  <div data-ui-sref = 'technicianShow({id: technician.id})'>
+    <div id = "technician">
+      <p>Name: {{technician.name}}</p>
+      <p>Technician Id #: {{technician.id}}</p>
+    </div>
+  </div>
+<div>

@@ -1,6 +1,6 @@
 #customer{
   display: inline-block;
-  padding: 20px;
+  padding: 16px;
   text-align: center;
   border: 2px solid black;
 }
@@ -19,4 +19,26 @@
 .newForm{
   width: 60%;
   margin: 0 auto;
+}
+
+#technician{
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  border: 2px solid black;
+}
+.technicianTitle{
+  text-align: center;
+
+}
+.technicians{
+  display: inline-block;
+  padding: 20px;
+}
+.newTechnician{
+  text-align: center;
+
+}
+.customerShow{
+  text-align: center;
 }

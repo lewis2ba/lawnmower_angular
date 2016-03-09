@@ -4,7 +4,8 @@
   angular
   .module("lawnMowering",[
     "ui.router",
-    "customer"
+    "customer",
+    "technician"
   ])
   .config([
     "$stateProvider",
@@ -24,6 +25,18 @@
       templateUrl:"js/customers/new.html",
       controller: "CustomerNewController",
       controllerAs: "CustomerNewViewModel"
+    })
+    .state("customerShow",{
+      url:"/customers/:id",
+      templateUrl:"js/customers/show.html",
+      controller: "CustomerShowController",
+      controllerAs: "CustomerShowViewModel"
+    })
+    .state("technicianIndex",{
+      url:"/technicians",
+      templateUrl: "js/technicians/index.html",
+      controller: "TechnicianIndexController",
+      controllerAs: "TechnicianIndexViewModel"
     })
   }
 }())
