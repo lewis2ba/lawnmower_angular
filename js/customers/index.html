@@ -1,0 +1,11 @@
+<h2 class = 'customerTitle'>Customers</h2>
+<div class = 'newCustomer' data-ui-sref = "customerNew">New Customer</div>
+<div class="customers" data-ng-repeat= "customer in CustomerIndexViewModel.customers">
+  <div data-ui-sref = 'customerShow({id: customer.id})'>
+    <div id = "customer">
+      <p>Name: {{customer.name}}</p>
+      <p>Address: {{customer.address}}</p>
+      <p>Lawn Size: {{customer.lawn_size}} square feet</p>
+    </div>
+  </div>
+<div>

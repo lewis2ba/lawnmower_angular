@@ -1,0 +1,22 @@
+#customer{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.customerTitle{
+  text-align: center;
+}
+
+.customers{
+  display: inline-block;
+  padding: 20px;
+}
+.newCustomer{
+  text-align: center;
+}
+.newForm{
+  width: 60%;
+  margin: 0 auto;
+}
