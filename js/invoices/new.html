@@ -1,0 +1,18 @@
+<form class = "newForm">
+  <div class = "form-group">
+    <label for="height">Invoice Date: </label>
+    <input type='text' name='address' ng-model='InvoiceNewViewModel.invoice.invoice_date' class="form-control">
+  </div>
+  <div class = "form-group">
+    <label for="diameter">Cost: </label>
+    <input type='text' name='lawn_size' ng-model='InvoiceNewViewModel.invoice.cost' class="form-control">
+  </div>
+  <div class = "form-group">
+    <label for="diameter">Mowing ID #: </label>
+    <input type='text' name='mowing_id' ng-model='InvoiceNewViewModel.invoice.mowing_id' class="form-control">
+  </div>
+  <button class="btn btn-default" ng-click='InvoiceNewViewModel.create()'>New Invoice</button>
+</form>
+
+<div data-data-directive></div>
+<div class = "data"></div>

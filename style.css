@@ -3,8 +3,8 @@
   padding: 16px;
   text-align: center;
   border: 2px solid black;
+  cursor: pointer;
 }
-
 .customerTitle{
   text-align: center;
 }
@@ -15,6 +15,7 @@
 }
 .newCustomer{
   text-align: center;
+  cursor: pointer;
 }
 .newForm{
   width: 60%;
@@ -26,6 +27,7 @@
   padding: 16px;
   text-align: center;
   border: 2px solid black;
+
 }
 .technicianTitle{
   text-align: center;
@@ -37,8 +39,31 @@
 }
 .newTechnician{
   text-align: center;
-
+  cursor: pointer;
 }
 .customerShow{
   text-align: center;
+}
+.mowings{
+  text-align: center;
+  border-bottom: 2px black solid;
+  width: 30%;
+  margin: 0 auto;
+}
+#mowingHeader{
+  text-align: center;
+}
+.invoice{
+  text-align: center;
+  border-bottom: 2px black solid;
+  width: 30%;
+  margin: 0 auto;
+}
+.invoiceTitle{
+  text-align: center;
+}
+.invoiceLink{
+  text-align: center;
+  padding-bottom: 10px;
+  cursor: pointer;
 }

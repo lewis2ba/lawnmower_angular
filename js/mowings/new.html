@@ -1,0 +1,18 @@
+<form class = "newForm">
+  <div class = "form-group">
+    <label for="height">Date: </label>
+    <input type='text' name='date' ng-model='MowingNewViewModel.mowing.mow_date' class="form-control">
+  </div>
+  <div class = "form-group">
+    <label for="diameter">Customer Id #: </label>
+    <input type='text' name='customer_id' ng-model='MowingNewViewModel.mowing.customer_id' class="form-control">
+  </div>
+  <div class = "form-group">
+    <label for="diameter">Technician Id #: </label>
+    <input type='text' name='technician_id' ng-model='MowingNewViewModel.mowing.technician_id' class="form-control">
+  </div>
+  <button class="btn btn-default" ng-click='MowingNewViewModel.create()'>New Record of Mowing</button>
+</form>
+
+<div data-data-directive></div>
+<div class = "data"></div>

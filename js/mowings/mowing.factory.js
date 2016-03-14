@@ -2,15 +2,15 @@
 
 (function(){
   angular
-    .module( "customer" )
-    .factory( "CustomerFactory", [
+    .module( "mowing" )
+    .factory( "MowingFactory", [
       "$resource",
       FactoryFunction
     ])
 
   function FactoryFunction( $resource ){
-    return $resource( "http://localhost:3000/customers/:id", {}, {
+    return $resource( "http://localhost:3000/mowings/:id", {}, {
       update: { method: "PUT" }
-    })
+    });
   }
 }());
