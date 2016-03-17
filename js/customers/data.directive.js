@@ -26,7 +26,6 @@
           }).then(function(response){
             $(".data").empty()
             for(var i = 0; i<response.data.length;i++){
-              console.log(response.data)
             $(".data").append("<p>Name: " + response.data[i].name + ", ID #: " + response.data[i].id+", Address: " + response.data[i].address + "</p>")
           }
           })
@@ -38,7 +37,6 @@
           }).then(function(response){
             $(".data").empty()
             for(var i = 0; i<response.data.length;i++){
-              console.log(response.data)
             $(".data").append("<p>Mow ID: " + response.data[i].id + ", Customer ID #: " + response.data[i].customer_id+", Technician ID #: " + response.data[i].customer_id + "</p>")
           }          })
         }

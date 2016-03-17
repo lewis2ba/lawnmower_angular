@@ -1,6 +1,7 @@
 <h2 id = "mowingHeader">Record of Mowing</h2>
 <div class = "invoiceLink" data-ui-sref = "invoiceNew">Create an Invoice for a Mow</div>
 <div class="mowings" data-ng-repeat = "mowing in MowingIndexViewModel.mowings">
+  <p>Mow ID #: {{mowing.id}}</p>
   <p>Mow Date: {{mowing.mow_date}}</p>
   <p>Customer ID: {{mowing.customer_id}}</p>
   <p>Technician ID: {{mowing.technician_id}}</p>

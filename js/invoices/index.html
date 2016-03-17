@@ -1,6 +1,7 @@
 <h2 class = "invoiceTitle">Invoice History</h2>
 <div data-ng-repeat = "invoice in InvoiceIndexViewModel.invoices">
   <div class = "invoice">
+    <p>Invoice ID #: {{invoice.id}}</p>
     <p>Date: {{invoice.invoice_date}}</p>
     <p>Mowing ID: {{invoice.mowing_id}}</p>
     <p>Cost: ${{invoice.cost}}</p>
